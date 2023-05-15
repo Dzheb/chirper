@@ -197,6 +197,12 @@ button,
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
 }
+.press_button{
+    background-color: #2563eb!important;
+}
+.press_button:hover {
+    background-color: #14347b!important;
+}
 
 /*
 Use the modern Firefox focus style for all focusable elements.
