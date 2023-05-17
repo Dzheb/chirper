@@ -197,12 +197,6 @@ button,
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
 }
-.press_button{
-    background-color: #2563eb!important;
-}
-.press_button:hover {
-    background-color: #14347b!important;
-}
 
 /*
 Use the modern Firefox focus style for all focusable elements.
@@ -732,6 +726,9 @@ select {
 .inline-flex {
   display: inline-flex;
 }
+.table {
+  display: table;
+}
 .grid {
   display: grid;
 }
@@ -879,6 +876,9 @@ select {
 }
 .overflow-hidden {
   overflow: hidden;
+}
+.break-all {
+  word-break: break-all;
 }
 .rounded {
   border-radius: 0.25rem;
